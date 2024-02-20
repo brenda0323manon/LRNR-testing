@@ -18,13 +18,14 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.8",
+    "react-testing-library": "^8.0.1",
     "router-dom": "^2.2.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "react-scripts test --watchAll --coverage",
     "cypress:open": "cypress open",
     "eject": "react-scripts eject"
   },

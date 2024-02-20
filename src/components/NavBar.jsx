@@ -33,5 +33,5 @@ class NavBar extends Component {
   );
 }
 }
-
+module.exports = NavBar;
 export default NavBar;

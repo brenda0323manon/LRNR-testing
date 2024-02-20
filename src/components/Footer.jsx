@@ -23,3 +23,5 @@ export default function Footer() {
     </div>
   )
 }
+
+module.exports = Footer;
